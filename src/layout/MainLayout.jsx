@@ -12,7 +12,7 @@ const MainLayout = () => {
                 <div className="absolute inset-0 bg-black/55 z-0"></div>
                 <div className="relative z-10">
                     <Navbar />
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-center items-center min-h-[800px]'>
                         <Banner />
                     </div>
                 </div>
